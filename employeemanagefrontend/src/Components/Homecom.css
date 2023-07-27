@@ -1,0 +1,17 @@
+.containercom{
+    background-color: grey;
+    width:1300px;
+    height:500px;
+    display:flex;
+    gap:1rem;
+}
+.containercom2{
+    position:relative;
+    top:100px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:18px;
+}
+#ourstory{
+    position:relative;
+    left:600px;
+}

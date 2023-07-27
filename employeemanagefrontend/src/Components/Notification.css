@@ -1,0 +1,46 @@
+.notifypage1{
+    margin:30px;
+    background-color:grey;
+    padding:10px;
+    
+  }
+.singlenotify{
+    margin:50px;
+    border:1px solid black;
+    border-radius:10px;
+    background-color:white;
+    padding-bottom:40px;
+}
+.details{
+    display:flex;
+    gap:1rem;
+    margin-left:10px;
+}
+.detailsperson{
+    display:flex;
+    gap:10rem;
+}
+.Reason{
+    margin-left:40px;
+    background-color:grey;
+    width:700px;
+    height:100px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-top:3px;
+}
+.acceptbutton{
+    margin-left:850px;
+    width:120px;
+    height:40px;
+    background-color: grey;
+}
+.rejectbutton{
+    width:120px;
+    height:40px;
+    background-color: grey;
+}
+.accrejbut{
+     display:flex;
+     gap:1rem;
+}

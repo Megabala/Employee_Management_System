@@ -1,0 +1,21 @@
+.Taskform{
+    background-color:aliceblue;
+    border: 1px solid black;
+    justify-content:center;
+    width:500px;
+    border-radius:20px;
+}
+.Taskform label,input{
+    display:inline-block;
+    width:200px;
+}
+.Taskform input{
+    width:200px;
+    height:30px;
+}
+.tasksubmit{
+    height:50px;
+    width:80px;
+    border-radius:20px;
+    margin-bottom:10px;
+}

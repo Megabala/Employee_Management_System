@@ -1,0 +1,14 @@
+.rows{
+    display: flex;
+    justify-content: center;
+}
+
+.detail-row .rows input{
+    background-color: gainsboro;
+    border-radius: 3px;
+    border: 0;
+    text-align: center;
+    width: 70%;
+    height: 30px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,98 @@
+.fieldregister{
+  display: flex;
+  flex-wrap:wrap;
+  margin-bottom:50px;
+  border-radius:10px;
+  border:2px solid black;
+  /* width:1100px; */
+ 
+}
+.fieldlegend{
+    
+    font-size:20px;
+    display: inline-block; 
+    padding: 5px 10px; 
+    background-color:lavender;
+    border: 1px solid black;
+    border-radius: 5px; 
+    
+}
+.selectgender select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    width:200px;
+    position:relative;
+    top:10px;
+}
+label, input {
+    margin:10px;
+    
+}
+.fieldregister label{
+    
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 6px;
+    color:black;
+    font-weight: normal;
+    position:relative;
+    top:10px;
+    font-family: Helvetica, sans-serif;
+}
+.fieldregister input{
+flex-basis: calc(16.66% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #333;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.registerform{
+    background-color:grey;
+    width:100%;
+    /* height:1000px; */
+    padding:50px;
+
+    
+}
+.registerform1{
+    background-color: white;
+    /* height:900px; */
+    padding:30px;
+    border-radius:30px;
+    
+}
+.row{
+    display:flex;
+}
+@media (max-width: 768px) {
+    .fieldregister input {
+      flex-basis: 100%;
+    }
+  }
+  
+  /* Adjust styles for screens less than or equal to 576px */
+  @media (max-width: 576px) {
+    .fieldregister label {
+      font-size: 14px;
+    }
+    .fieldregister .selectgender select {
+      width: 100%;
+    }
+    .registerform {
+      padding: 30px;
+    }
+    .registerform1 {
+      padding: 20px;
+    }
+  }

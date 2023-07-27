@@ -1,0 +1,28 @@
+/* .leaveform{
+    display:grid;
+    grid-template-columns:1fr 0fr;
+} */
+.leaveform1{
+    display:flex;
+    flex-direction:column;
+    background-color:grey;
+    padding-left:20px;
+   
+}
+.leave-input{
+    display:flex;
+    flex-direction:column;
+}
+.leave-input input{
+    width:500px;
+    height:50px;
+    padding:20px;
+}
+.leavebtn button{
+     border-radius:50px;
+     margin-bottom:20px;
+     margin-top:20px;
+     margin-left:200px;
+     width:100px;
+     height:20px;
+}

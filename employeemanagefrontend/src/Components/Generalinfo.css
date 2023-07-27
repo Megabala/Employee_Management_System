@@ -1,0 +1,18 @@
+.Generalinfo{
+    padding:50px;
+}
+.Generalinfo1 p{
+    color:grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.Generalinfo2 p{
+    color:grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.heading{
+    font-size:20px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
